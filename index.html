@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disease Dynamics: Exploring Disease Mechanisms and Medicine Names through PubMed Analysis</title>
+    <style>
+
+           body {
+            font-family: 'Inter', sans-serif;
+            margin-bottom: 100px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .main {
+            background-color: #e5ebe8;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .main h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+
+        .main p {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+        }
+
+        #logo {
+            display: inline-block;
+            margin: 15px; 
+            height: 60px;
+            width: auto; 
+        }
+
+        .search-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .search-input {
+            width: 100%;
+            max-width: 600px;
+            padding: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1.25rem;
+        }
+
+        .search-button {
+            padding: 1rem 2rem;
+            background-color: #11633f;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.25rem;
+            cursor: pointer;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 99%;
+            background-color: #e5ebe8;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="#"><img id="logo" src="https://allspinesurgerycenter.com/wp-content/uploads/2021/05/drugs.png"></a>
+    <div class="container">
+      <div class="main">
+        <h1 style="color: #11633f;">Disease Dynamics: Exploring Disease Mechanisms and Medicine Names through PubMed Analysis</h1>
+        <p>
+            Our platform offers a sophisticated solution for researching the biological mechanisms of diseases.
+            Simply input the disease of interest, and we will provide a curated selection of the top 100 relevant published articles sourced from PubMed.
+            Additionally, we offer insights into common medicine names associated with the disease group, enhancing your understanding and research capabilities.
+        </p>
+    <form action="/search" method="POST" class="search-form">
+        <input type="text" id="search_terms" name="search_terms" class="search-input" placeholder="Input keywords separated by commas" />
+        <button type="submit" class="search-button">Search</button>
+    </form>
+    <footer> Disclaimer:
+        The information provided on this website for the Advanced Bioinformatics school project is for educational purposes only. While we strive to ensure accuracy, 
+        there is no guarantee that all results presented are correct. Users are encouraged to verify information and consult with relevant experts when necessary.
+    </footer>
+</body>
+</html>

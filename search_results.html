@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Results</title>
+    <style>
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 3px solid #11633f;
+            padding: 8px;
+        }
+        th {
+            background-color: #97c1ae;
+        }
+        tr:nth-child(even) {
+            background-color: #e5ebe8;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 99%;
+            background-color: #e5ebe8;
+            padding: 10px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+    <h3>Search Terms: {{ search_terms }}</h3>
+    </header>
+    </div>
+    <h1 style="color: #11633f; margin-top: 125px;">Common Medication Names</h1>
+    <ul>
+        {% for name, count in common_medication_names %}
+            <li>{{ name }} (Count: {{ count }})</li>
+        {% endfor %}
+    </ul>
+    <h1 style="color: #11633f;">Article Results</h1>
+    <table>
+        <tr>
+            <th>Title</th>
+            <th>Abstract</th>
+            <th>Relevance Score</th>
+        </tr>
+        {% for record in records %}
+        <tr>
+            <td>{{ record.title }}</td>
+            <td>{{ record.abstract }}</td>
+            <td>{{ record.relevance_score }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
