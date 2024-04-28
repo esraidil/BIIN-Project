@@ -45,8 +45,8 @@
     </div>
     <h1 style="color: #11633f; margin-top: 125px;">Common Medication Names</h1>
     <ul>
-        {% for name, count in common_medication_names %}
-            <li>{{ name }} (Count: {{ count }})</li>
+        {% for name in common_med_names %}
+            <li>{{ name }}</li>
         {% endfor %}
     </ul>
     <h1 style="color: #11633f;">Article Results</h1>
