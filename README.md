@@ -7,7 +7,7 @@ Disease Dynamics speeds up the research process of drug repurposing by automatin
 My capstone project is made up of three files (1 python file and 2 html files) that can be downloaded to run the flask application over the local server at http://127.0.0.1:5000. 
 
 It is very easy to run the application
-  1. Download the three files included in this repository
+  1. Download the three files included in this repository (BIIN_FINALPROJECT.py, index.html, search_results.html)
   2. Open the Command Prompt
   3. Set the directory to where the three files are now saved on your pc
   4. Type the command "python BIIN_FINAL_PROJECT.py" in the Command Prompt and click the enter button
@@ -25,5 +25,7 @@ It is very easy to run the application
 You should now be on the homepage of the flask app. You can enter a couple keywords about the techniques used to find drugs, mechanisms of a disease, genes affected by a disease, and so on to explore relevant articles that will help start the accelerated research process of drug discovery. When you press the "Search" button you might have to wait a minute or two before getting any results. 
 
 The results page will display a few things. The user inputted keywords will be displayed in the header, a list of medications found throughout the 100 most relevant articles, and the titles and abstract as well their relavancy scores of the 100 most relevant articles.
+
+My report is in the file named BIIN Final Project Reprot.pdf and my presentation is in the file BIIN Final Project Presentation.pptx. I also included a link to my video demonstration of the tool working. All you have to do is make sure you sign in with a Ramapo email to view the link in Google Drive.
 
 Hope this helps jumpstart your research towards discovering new uses for existing medications!
