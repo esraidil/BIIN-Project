@@ -26,6 +26,6 @@ You should now be on the homepage of the flask app. You can enter a couple keywo
 
 The results page will display a few things. The user inputted keywords will be displayed in the header, a list of medications found throughout the 100 most relevant articles, and the titles and abstract as well their relavancy scores of the 100 most relevant articles.
 
-My report is in the file named BIIN Final Project Reprot.pdf and my presentation is in the file BIIN Final Project Presentation.pptx. I also included a link to my video demonstration of the tool working. All you have to do is make sure you sign in with a Ramapo email to view the link in Google Drive.
+My report is in the file named BIIN Final Project Report.pdf and my presentation is in the file BIIN Final Project Presentation.pptx. I also included a link to my video demonstration of the tool working. All you have to do is make sure you sign in with a Ramapo email to view the link in Google Drive.
 
 Hope this helps jumpstart your research towards discovering new uses for existing medications!
